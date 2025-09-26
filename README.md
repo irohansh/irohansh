@@ -1,6 +1,7 @@
-<img src="https://github-readme-stats.vercel.app/api?username=irohansh&theme=nightowl&show_icons=true&count_private=true" />
 
 
+### Studying
+[![Learning](https://skillicons.dev/icons?i=aws,azure,ruby)](https://skillicons.dev)
 
 
 <br/>
