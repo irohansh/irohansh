@@ -1,6 +1,6 @@
 
-
-[![Oracle](https://skillicons.dev/icons?i=oracle)](https://education.oracle.com/java-se-17-developer/pexam_1Z0-829) Java SE 17
+### Studying
+[![Learning](https://skillicons.dev/icons?i=aws,oracle,ruby)](https://skillicons.dev)
 
 
 
