@@ -1,7 +1,7 @@
 
 
 ### Studying
-[![Learning](https://skillicons.dev/icons?i=aws,docker,ruby)](https://skillicons.dev)
+[![Learning](https://skillicons.dev/icons?i=aws)](https://skillicons.dev)
 
 
 <br/>
