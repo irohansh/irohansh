@@ -1,26 +1,10 @@
-# Let's Connect
 
 <p align="center">
-  <a href="mailto:your.email@example.com">
-    <img src="https://skillicons.dev/icons?i=gmail" width="30" alt="Gmail" />
-  </a>
-  <a href="mailto:your.email@example.com">your.email@example.com</a>
+  <a href="https://leetcode.com/irohansh/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-02.gif" alt="jyot" height="200" width="200" /></a>
+  <a href="https://leetcode.com/irohansh/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-03.gif" alt="jyot" height="200" width="200" /></a>
+  <a href="https://leetcode.com/irohansh/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-200.gif" alt="jyot" height="200" width="200" /></a>
+  <a href="https://leetcode.com/irohansh/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" alt="jyot" height="200" width="200" /></a>
 </p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/your-linkedin-username/">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="30" alt="LinkedIn" />
-  </a>
-  <a href="https://www.linkedin.com/in/your-linkedin-username/">LinkedIn</a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/your-github-username">
-    <img src="https://skillicons.dev/icons?i=github" width="30" alt="GitHub" />
-  </a>
-  <a href="https://github.com/your-github-username">your-github-username</a>
-</p>
-
 
 
 <br/>
