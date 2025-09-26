@@ -1,9 +1,7 @@
 
-<p align="center">
-  <a href="https://leetcode.com/irohansh/" target="_blank">
-    <img align="center" src="https://img.shields.io/badge/LeetCode–50%20Days-Streak-orange" alt="50 day LeetCode streak" height="50" />
-  </a>
-</p>
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/rohansharma/rohansharma/master/name.svg" alt="Rohan Sharma" />
+</h1>
 
 
 
