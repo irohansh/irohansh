@@ -1,18 +1,26 @@
-# Let's connect
+# Let's Connect
 
 <p align="center">
-  <a href="mailto:your.email@example.com" title="Email me">
-    <img src="https://img.shields.io/badge/-your.email@example.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail" />
+  <a href="mailto:your.email@example.com">
+    <img src="https://skillicons.dev/icons?i=gmail" width="30" alt="Gmail" />
   </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank" rel="noopener" title="Connect on LinkedIn">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/your-github-username" target="_blank" rel="noopener" title="View GitHub profile">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
-  </a>
+  <a href="mailto:your.email@example.com">your.email@example.com</a>
 </p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/your-linkedin-username/">
+    <img src="https://skillicons.dev/icons?i=linkedin" width="30" alt="LinkedIn" />
+  </a>
+  <a href="https://www.linkedin.com/in/your-linkedin-username/">LinkedIn</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/your-github-username">
+    <img src="https://skillicons.dev/icons?i=github" width="30" alt="GitHub" />
+  </a>
+  <a href="https://github.com/your-github-username">your-github-username</a>
+</p>
+
 
 
 <br/>
