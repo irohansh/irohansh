@@ -1,7 +1,8 @@
 
 
-### Studying
-[![Learning](https://skillicons.dev/icons?i=aws)](https://skillicons.dev)
+### Certifications
+[![Oracle Certified Professional: Java SE 17 Developer](https://education.oracle.com/content/dam/education/ocp-java-se-17-developer-badge.png)](https://education.oracle.com/java-se-17-developer/pexam_1Z0-829)
+
 
 
 <br/>
