@@ -1,7 +1,4 @@
-
-<h1 align="center">
-  <img src="https://raw.githubusercontent.com/rohansharma/rohansharma/master/name.svg" alt="Rohan Sharma" />
-</h1>
+<img src="https://github-readme-stats.vercel.app/api?username=irohansh&theme=nightowl&show_icons=true&count_private=true" />
 
 
 
