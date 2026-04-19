@@ -2,9 +2,9 @@
 
 <img src="https://avatars.githubusercontent.com/u/167911362?v=4" width="120" style="border-radius: 50%;" alt="Rohan Sharma"/>
 
-# Hi, I'm Rohan Sharma 👋
+# Rohan Sharma
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Pre-final+Year+CSE+Student;Backend+%26+DevOps+Enthusiast;Building+Scalable+Systems;Automating+Workflows)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Backend+Intern+%40+Cestrum;AWS+%26+Oracle+Certified;Built+autoreload+%E2%80%94+Go+file+watcher;Pre-final+Year+CSE+%40+Chennai)](https://git.io/typing-svg)
 
 [![Website](https://img.shields.io/badge/Portfolio-irohansh.tech-58A6FF?style=flat-square&logo=googlechrome&logoColor=white)](https://irohansh.tech)
 [![GitHub](https://img.shields.io/badge/GitHub-irohansh-181717?style=flat-square&logo=github)](https://github.com/irohansh)
@@ -14,14 +14,17 @@
 
 ---
 
-## About Me
+## About
 
-> Pre-final year CSE student passionate about Backend Engineering & DevOps. I build scalable systems, automate workflows, and ship production-ready software.
+Pre-final year Computer Science student and Backend Engineer with a focus on building reliable, scalable systems. Currently interning at **Cestrum**, where I contribute to backend infrastructure and API development using Go and Node.js.
 
-- 🔭 Currently building **[autoreload](https://github.com/irohansh/autoreload)** — a Go-based auto-reload tool
-- 🌱 Deep-diving into **distributed systems**, **cloud architecture**, and **database internals**
-- 🏆 AWS & Oracle Certified
-- 📍 Chennai, India
+**Notable Projects:**
+
+- **[autoreload](https://github.com/irohansh/autoreload)** — A production-grade Go file watcher that enables live-reload workflows for CLI and server applications. Built with an event-driven architecture using `fsnotify`, supporting debouncing, glob pattern filtering, and process lifecycle management.
+- **Backend API Design** — Designed and shipped RESTful APIs with PostgreSQL, Prisma ORM, and Express.js following clean architecture principles — with rate limiting, JWT auth, and structured error handling baked in from the start.
+- **Cloud-Native Deployments** — Deployed containerized workloads on AWS (EC2, S3, RDS, IAM) following Well-Architected Framework principles, with Docker and CI/CD pipelines integrated end-to-end.
+
+Certified **AWS Solutions Architect** and **Oracle Java SE 17 Developer**. Comfortable across the full backend stack — from systems-level Go to TypeScript microservices — with a strong emphasis on correctness, observability, and developer ergonomics.
 
 ---
 
@@ -60,7 +63,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=irohansh&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" height="165" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=irohansh&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&custom_title=GitHub+Stats" height="165" alt="GitHub Stats"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irohansh&theme=github_dark&hide_border=true&layout=compact&langs_count=8" height="165" alt="Top Languages"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=irohansh&theme=github-dark-blue&hide_border=true" alt="GitHub Streak"/>
@@ -69,56 +72,17 @@
 
 ---
 
-## Public Repositories (9)
-
-| Repository | Language | Description |
-|---|---|---|
-| [autoreload](https://github.com/irohansh/autoreload) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Auto-reload tool for development workflows |
-| [eMobility_ChargeMap](https://github.com/irohansh/eMobility_ChargeMap) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | EV charging station map application |
-| [Nourishnet](https://github.com/irohansh/Nourishnet) | ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) | Nutrition & food network platform |
-| [TransPay](https://github.com/irohansh/TransPay) | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Payment transaction system |
-| [keshav_portfolio](https://github.com/irohansh/keshav_portfolio) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Portfolio website — [live](https://keshavsharma.vercel.app) |
-| [Prisma_essentials](https://github.com/irohansh/Prisma_essentials) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Prisma ORM essentials & patterns |
-| [postgres](https://github.com/irohansh/postgres) | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | PostgreSQL fundamentals & queries |
-| [DiskSpace_Optimizer](https://github.com/irohansh/DiskSpace_Optimizer) | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) | Disk space analysis & cleanup tool |
-| [irohansh](https://github.com/irohansh/irohansh) | — | GitHub profile repository |
-
----
-
 ## Certifications
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="340">
-
-**AWS Certified Solutions Architect – Associate**
-
-<a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank">
-  <img src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" width="180" alt="AWS Certified Solutions Architect – Associate"/>
+<a href="https://www.credly.com/badges/391e1ab9-aee4-470d-84c0-7a483505280d" target="_blank" title="Click to verify on Credly">
+  <img src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" height="160" alt="AWS Certified Solutions Architect – Associate Badge"/>
 </a>
-
-![AWS](https://img.shields.io/badge/Amazon_Web_Services-Certified-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-
-*Intermediate · Cloud Architecture & Design*
-
-</td>
-<td align="center" width="340">
-
-**Oracle Certified Professional: Java SE 17 Developer**
-
-<a href="https://education.oracle.com/oracle-certified-professional-java-se-17-developer/trackp_OCPJSE17" target="_blank">
-  <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCPJSE17.png" width="180" alt="Oracle Certified Professional: Java SE 17 Developer"/>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=B3AD49F22B25A11FBC9E00237AA3F0778E7CCD95D0326FEB2BE130D602BCDD5D" target="_blank" title="Click to verify on Oracle">
+  <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCPJSE17.png" height="160" alt="Oracle Certified Professional Java SE 17 Badge"/>
 </a>
-
-![Oracle](https://img.shields.io/badge/Oracle-Certified_Professional-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-
-*Professional · Java SE 17 Development*
-
-</td>
-</tr>
-</table>
 
 </div>
 
@@ -128,8 +92,13 @@
 
 <div align="center">
 
-<!-- Replace YOUR_LEETCODE_USERNAME below with your actual LeetCode username -->
-[![LeetCode Stats](https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Fira%20Code&ext=heatmap)](https://leetcode.com/YOUR_LEETCODE_USERNAME)
+<a href="https://leetcode.com/irohansh" target="_blank">
+  <img src="https://leetcard.jacoblin.cool/irohansh?theme=dark&font=Fira%20Code&border=0&radius=8&ext=heatmap" alt="LeetCode Stats"/>
+</a>
+
+<br/>
+
+[![Contest Rating](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Falfa-leetcode-api.onrender.com%2Firohansh%2Fcontest&query=contestRating&suffix=%20Rating&label=Contest&color=FFA116&labelColor=1a1a1a&style=flat-square&logo=leetcode&logoColor=FFA116)](https://leetcode.com/irohansh)
 
 </div>
 
