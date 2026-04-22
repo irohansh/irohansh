@@ -106,8 +106,6 @@ Certified **AWS Solutions Architect** and **Oracle Java SE 17 Developer**. Comfo
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=irohansh&style=flat-square&color=58A6FF)
-
 *"Build systems that outlast the sprint."*
 
 </div>
