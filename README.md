@@ -16,7 +16,7 @@
 
 ## About
 
-Pre-final year Computer Science student and Backend Engineer with a focus on building reliable, scalable systems. Currently interning at **Cestrum**, where I contribute to backend infrastructure and API development using Go and Node.js.
+Final year Computer Science student and Backend Engineer with a focus on building reliable, scalable systems. where I contribute to backend infrastructure and API development using Node.js.
 
 **Notable Projects:**
 
