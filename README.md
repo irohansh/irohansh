@@ -4,7 +4,7 @@
 
 # Rohan Sharma
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Ex-Backend+Intern+%40+Cestrum;AWS+%26+Oracle+Certified;Built+autoreload+%E2%80%94+Go+file+watcher;Final+Year+CSE+%40+Chennai)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Ex-Backend+Intern+%40+Cestrum;AWS+%26+Oracle+Certified;Final+Year+CSE+%40+Chennai)](https://git.io/typing-svg)
 
 [![Website](https://img.shields.io/badge/Portfolio-irohansh.tech-58A6FF?style=flat-square&logo=googlechrome&logoColor=white)](https://irohansh.tech)
 [![GitHub](https://img.shields.io/badge/GitHub-irohansh-181717?style=flat-square&logo=github)](https://github.com/irohansh)
