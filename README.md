@@ -27,90 +27,61 @@ Certified **AWS Solutions Architect – Associate** and **Oracle Certified Profe
 
 ## Projects
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/irohansh/IncidentOS">
-  <img src="https://img.shields.io/badge/01-INCIDENTOS-58A6FF?style=for-the-badge&labelColor=0D1117" height="34" alt="IncidentOS"/>
-</a>
+### IncidentOS
 
-**AI incident response with a human in the loop**
+An incident response platform that never acts without a human saying yes. Seven agents triage the alert, correlate state across Slack, GitHub, Prometheus and Grafana, and draft a remediation plan — which then waits at an approval gate until someone signs off.
 
-<a href="https://github.com/irohansh/IncidentOS"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source"/></a>
-<img src="https://img.shields.io/github/stars/irohansh/IncidentOS?style=flat-square&color=FFA116&labelColor=0D1117" alt="Stars"/>
-<img src="https://img.shields.io/github/last-commit/irohansh/IncidentOS?style=flat-square&color=58A6FF&labelColor=0D1117" alt="Last commit"/>
+![TypeScript](https://img.shields.io/badge/TypeScript-21262D?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-21262D?style=flat-square) ![AI Agents](https://img.shields.io/badge/AI_Agents-21262D?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-21262D?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-21262D?style=flat-square)
 
-<br/>
+🔵 TypeScript &nbsp; ![Stars](https://img.shields.io/github/stars/irohansh/IncidentOS?style=flat-square&label=%E2%98%86&color=0D1117&labelColor=0D1117)
 
-<img src="https://img.shields.io/badge/Signal-6E7681?style=flat-square&labelColor=0D1117" alt="Signal"/> **→** <img src="https://img.shields.io/badge/7--Agent_Pipeline-58A6FF?style=flat-square&labelColor=0D1117" alt="7-Agent Pipeline"/> **→** <img src="https://img.shields.io/badge/⏸_Human_Approval-F0883E?style=flat-square&labelColor=0D1117" alt="Human Approval"/> **→** <img src="https://img.shields.io/badge/Remediation-3FB950?style=flat-square&labelColor=0D1117" alt="Remediation"/>
+[![View Code](https://img.shields.io/badge/View_Code-0D1117?style=flat-square&logo=github&logoColor=white)](https://github.com/irohansh/IncidentOS)
 
-<br/>
+</td>
+<td width="50%" valign="top">
 
-Every remediation action passes a mandatory approval gate before it executes.<br/>
-Incident state stays synchronized across Slack, GitHub, Prometheus, and Grafana.
+### MergeMind
 
-`TypeScript` · `Node.js` · `PostgreSQL` · `Docker` · `Next.js` · `Anthropic SDK` · `MCP`
+A pull-request reviewer that works the way a good team does. A planner agent reads the diff and delegates to security, logic and style specialists running in parallel, then a synthesiser folds everything into one clean, deduplicated review comment on the PR.
 
-</div>
+![TypeScript](https://img.shields.io/badge/TypeScript-21262D?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-21262D?style=flat-square) ![AI Agents](https://img.shields.io/badge/AI_Agents-21262D?style=flat-square) ![GitHub API](https://img.shields.io/badge/GitHub_API-21262D?style=flat-square)
+
+🔵 TypeScript &nbsp; ![Stars](https://img.shields.io/github/stars/irohansh/MergeMind?style=flat-square&label=%E2%98%86&color=0D1117&labelColor=0D1117)
+
+[![View Code](https://img.shields.io/badge/View_Code-0D1117?style=flat-square&logo=github&logoColor=white)](https://github.com/irohansh/MergeMind)
+
+</td>
+</tr>
+</table>
 
 <details>
-<summary><b>Engineering detail</b></summary>
+<summary><b>Engineering detail — IncidentOS</b></summary>
 
 <br/>
 
 | | |
 |:--|:--|
 | **Cost** | Cost-aware model routing across Claude Sonnet and Haiku cut per-incident inference spend, with token usage and latency captured in PostgreSQL for SQL-driven cost analysis. |
-| **Integrations** | Incident state synchronized across Slack, GitHub, Prometheus, and Grafana through a unified MCP-style client. |
+| **Integrations** | Incident state synchronized across Slack, GitHub, Prometheus and Grafana through a unified MCP-style client. |
 | **Security** | HMAC-SHA256 webhook verification, strict command denylists, and remediation of critical SSRF and URL-injection vulnerabilities. |
 | **Delivery** | Services containerized with Docker Compose behind an end-to-end CI/CD pipeline. |
 
 </details>
 
-<br/>
-
-<div align="center">
-
-<a href="https://github.com/irohansh/MergeMind">
-  <img src="https://img.shields.io/badge/02-MERGEMIND-A371F7?style=for-the-badge&labelColor=0D1117" height="34" alt="MergeMind"/>
-</a>
-
-**Multi-agent pull request review**
-
-<a href="https://github.com/irohansh/MergeMind"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source"/></a>
-<img src="https://img.shields.io/github/stars/irohansh/MergeMind?style=flat-square&color=FFA116&labelColor=0D1117" alt="Stars"/>
-<img src="https://img.shields.io/github/last-commit/irohansh/MergeMind?style=flat-square&color=58A6FF&labelColor=0D1117" alt="Last commit"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/Planner-A371F7?style=flat-square&labelColor=0D1117" alt="Planner"/> **→** <img src="https://img.shields.io/badge/Security-F85149?style=flat-square&labelColor=0D1117" alt="Security"/> <img src="https://img.shields.io/badge/Logic-58A6FF?style=flat-square&labelColor=0D1117" alt="Logic"/> <img src="https://img.shields.io/badge/Style-3FB950?style=flat-square&labelColor=0D1117" alt="Style"/> **→** <img src="https://img.shields.io/badge/Synthesiser-A371F7?style=flat-square&labelColor=0D1117" alt="Synthesiser"/>
-
-<sub>*three reviewers run in parallel over batched diffs*</sub>
-
-<br/>
-
-<img src="https://img.shields.io/badge/inference_cost-−25--30%25-3FB950?style=flat-square&labelColor=0D1117" alt="Cost reduction"/>
-<img src="https://img.shields.io/badge/MCP_servers-3-A371F7?style=flat-square&labelColor=0D1117" alt="MCP servers"/>
-<img src="https://img.shields.io/badge/output-1_consolidated_review-58A6FF?style=flat-square&labelColor=0D1117" alt="Output"/>
-
-<br/>
-
-Decomposes PR diffs, reviews batches in parallel, and ships a single<br/>
-consolidated Markdown review instead of five separate opinions.
-
-`TypeScript` · `Node.js` · `PostgreSQL` · `Anthropic SDK` · `MCP`
-
-</div>
-
 <details>
-<summary><b>Engineering detail</b></summary>
+<summary><b>Engineering detail — MergeMind</b></summary>
 
 <br/>
 
 | | |
 |:--|:--|
-| **Cost** | Model routing and file batching cut inference cost by **25–30% per review**; every agent call logged to PostgreSQL with token, latency, and cost metrics. |
+| **Cost** | Model routing and file batching cut inference cost by **25–30% per review**; every agent call logged to PostgreSQL with token, latency and cost metrics. |
 | **Pipeline** | Five specialised agents decompose PR diffs and review batches in parallel before a Synthesiser consolidates the output. |
-| **Tooling** | Three MCP servers — GitHub, PostgreSQL, and filesystem — wired into a Claude Code workflow with custom slash commands to fetch and review pull requests. |
+| **Tooling** | Three MCP servers — GitHub, PostgreSQL and filesystem — wired into a Claude Code workflow with custom slash commands to fetch and review pull requests. |
 
 </details>
 
@@ -174,20 +145,24 @@ consolidated Markdown review instead of five separate opinions.
 
 <div align="center">
 
-<a href="https://www.credly.com/badges/391e1ab9-aee4-470d-84c0-7a483505280d" target="_blank" title="Click to verify on Credly">
-  <img src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" height="160" alt="AWS Certified Solutions Architect – Associate Badge"/>
-</a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=B3AD49F22B25A11FBC9E00237AA3F0778E7CCD95D0326FEB2BE130D602BCDD5D" target="_blank" title="Click to verify on Oracle">
-  <img src="https://brm-workforce.oracle.com/pdf/certview/images/OCPJSE17.png" height="160" alt="Oracle Certified Professional Java SE 17 Badge"/>
-</a>
+<table>
+<tr>
+<td align="center" width="50%">
 
-</div>
+<img src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" height="150" alt="AWS Certified Solutions Architect – Associate"/>
 
-<div align="center">
+<a href="https://www.credly.com/badges/391e1ab9-aee4-470d-84c0-7a483505280d"><img src="https://img.shields.io/badge/%E2%9C%93_Click_to_verify-238636?style=flat-square&labelColor=0D1117" alt="Click to verify"/></a>
 
-**AWS Certified Solutions Architect – Associate (SAA-C03)** · Feb 2026
-**Oracle Certified Professional: Java SE 17 Developer (1Z0-829)** · Jul 2025
+</td>
+<td align="center" width="50%">
+
+<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCPJSE17.png" height="150" alt="Oracle Certified Professional: Java SE 17 Developer"/>
+
+<a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=B3AD49F22B25A11FBC9E00237AA3F0778E7CCD95D0326FEB2BE130D602BCDD5D"><img src="https://img.shields.io/badge/%E2%9C%93_Click_to_verify-238636?style=flat-square&labelColor=0D1117" alt="Click to verify"/></a>
+
+</td>
+</tr>
+</table>
 
 </div>
 
