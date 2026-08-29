@@ -27,41 +27,38 @@ Certified **AWS Solutions Architect – Associate** and **Oracle Certified Profe
 
 ## Projects
 
-<table>
-<tr><td width="50%" valign="top">
+<div align="center">
 
-### [IncidentOS](https://github.com/irohansh/IncidentOS)
+<a href="https://github.com/irohansh/IncidentOS">
+  <img src="https://img.shields.io/badge/01-INCIDENTOS-58A6FF?style=for-the-badge&labelColor=0D1117" height="34" alt="IncidentOS"/>
+</a>
 
-[![Repo](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/irohansh/IncidentOS)
-![Stars](https://img.shields.io/github/stars/irohansh/IncidentOS?style=flat-square&color=FFA116&labelColor=1a1a1a)
-![Last commit](https://img.shields.io/github/last-commit/irohansh/IncidentOS?style=flat-square&color=58A6FF&labelColor=1a1a1a)
+**AI incident response with a human in the loop**
 
-An incident response platform built on a **seven-agent pipeline** with a mandatory human-in-the-loop approval gate — so every remediation action is reviewed before it executes.
+<a href="https://github.com/irohansh/IncidentOS"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source"/></a>
+<img src="https://img.shields.io/github/stars/irohansh/IncidentOS?style=flat-square&color=FFA116&labelColor=0D1117" alt="Stars"/>
+<img src="https://img.shields.io/github/last-commit/irohansh/IncidentOS?style=flat-square&color=58A6FF&labelColor=0D1117" alt="Last commit"/>
 
-`TypeScript` `Node.js` `PostgreSQL` `Docker` `Next.js` `Anthropic SDK` `MCP`
+<br/>
 
-</td><td width="50%" valign="top">
+<img src="https://img.shields.io/badge/Signal-6E7681?style=flat-square&labelColor=0D1117" alt="Signal"/> **→** <img src="https://img.shields.io/badge/7--Agent_Pipeline-58A6FF?style=flat-square&labelColor=0D1117" alt="7-Agent Pipeline"/> **→** <img src="https://img.shields.io/badge/⏸_Human_Approval-F0883E?style=flat-square&labelColor=0D1117" alt="Human Approval"/> **→** <img src="https://img.shields.io/badge/Remediation-3FB950?style=flat-square&labelColor=0D1117" alt="Remediation"/>
 
-### [MergeMind](https://github.com/irohansh/MergeMind)
+<br/>
 
-[![Repo](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/irohansh/MergeMind)
-![Stars](https://img.shields.io/github/stars/irohansh/MergeMind?style=flat-square&color=FFA116&labelColor=1a1a1a)
-![Last commit](https://img.shields.io/github/last-commit/irohansh/MergeMind?style=flat-square&color=58A6FF&labelColor=1a1a1a)
+Every remediation action passes a mandatory approval gate before it executes.<br/>
+Incident state stays synchronized across Slack, GitHub, Prometheus, and Grafana.
 
-An automated PR reviewer running a **5-agent orchestration pipeline** — Planner, Security, Logic, Style, Synthesiser — that decomposes diffs, reviews batches in parallel, and ships one consolidated Markdown review.
+`TypeScript` · `Node.js` · `PostgreSQL` · `Docker` · `Next.js` · `Anthropic SDK` · `MCP`
 
-`TypeScript` `Node.js` `PostgreSQL` `Anthropic SDK` `MCP`
-
-</td></tr>
-</table>
+</div>
 
 <details>
-<summary><b>IncidentOS — engineering detail</b></summary>
+<summary><b>Engineering detail</b></summary>
 
 <br/>
 
 | | |
-|---|---|
+|:--|:--|
 | **Cost** | Cost-aware model routing across Claude Sonnet and Haiku cut per-incident inference spend, with token usage and latency captured in PostgreSQL for SQL-driven cost analysis. |
 | **Integrations** | Incident state synchronized across Slack, GitHub, Prometheus, and Grafana through a unified MCP-style client. |
 | **Security** | HMAC-SHA256 webhook verification, strict command denylists, and remediation of critical SSRF and URL-injection vulnerabilities. |
@@ -69,13 +66,48 @@ An automated PR reviewer running a **5-agent orchestration pipeline** — Planne
 
 </details>
 
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/irohansh/MergeMind">
+  <img src="https://img.shields.io/badge/02-MERGEMIND-A371F7?style=for-the-badge&labelColor=0D1117" height="34" alt="MergeMind"/>
+</a>
+
+**Multi-agent pull request review**
+
+<a href="https://github.com/irohansh/MergeMind"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source"/></a>
+<img src="https://img.shields.io/github/stars/irohansh/MergeMind?style=flat-square&color=FFA116&labelColor=0D1117" alt="Stars"/>
+<img src="https://img.shields.io/github/last-commit/irohansh/MergeMind?style=flat-square&color=58A6FF&labelColor=0D1117" alt="Last commit"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Planner-A371F7?style=flat-square&labelColor=0D1117" alt="Planner"/> **→** <img src="https://img.shields.io/badge/Security-F85149?style=flat-square&labelColor=0D1117" alt="Security"/> <img src="https://img.shields.io/badge/Logic-58A6FF?style=flat-square&labelColor=0D1117" alt="Logic"/> <img src="https://img.shields.io/badge/Style-3FB950?style=flat-square&labelColor=0D1117" alt="Style"/> **→** <img src="https://img.shields.io/badge/Synthesiser-A371F7?style=flat-square&labelColor=0D1117" alt="Synthesiser"/>
+
+<sub>*three reviewers run in parallel over batched diffs*</sub>
+
+<br/>
+
+<img src="https://img.shields.io/badge/inference_cost-−25--30%25-3FB950?style=flat-square&labelColor=0D1117" alt="Cost reduction"/>
+<img src="https://img.shields.io/badge/MCP_servers-3-A371F7?style=flat-square&labelColor=0D1117" alt="MCP servers"/>
+<img src="https://img.shields.io/badge/output-1_consolidated_review-58A6FF?style=flat-square&labelColor=0D1117" alt="Output"/>
+
+<br/>
+
+Decomposes PR diffs, reviews batches in parallel, and ships a single<br/>
+consolidated Markdown review instead of five separate opinions.
+
+`TypeScript` · `Node.js` · `PostgreSQL` · `Anthropic SDK` · `MCP`
+
+</div>
+
 <details>
-<summary><b>MergeMind — engineering detail</b></summary>
+<summary><b>Engineering detail</b></summary>
 
 <br/>
 
 | | |
-|---|---|
+|:--|:--|
 | **Cost** | Model routing and file batching cut inference cost by **25–30% per review**; every agent call logged to PostgreSQL with token, latency, and cost metrics. |
 | **Pipeline** | Five specialised agents decompose PR diffs and review batches in parallel before a Synthesiser consolidates the output. |
 | **Tooling** | Three MCP servers — GitHub, PostgreSQL, and filesystem — wired into a Claude Code workflow with custom slash commands to fetch and review pull requests. |
