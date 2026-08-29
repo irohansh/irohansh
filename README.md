@@ -17,19 +17,20 @@
 
 ## About
 
-Final year Computer Science student at **VIT** and a backend engineer focused on building reliable, scalable systems — and lately, on agentic pipelines that keep humans in the loop.
+I’m a final year Computer Science student at **VIT Chennai**, and most of what I’ve learned so far has come from building things, breaking them, and figuring out how to fix them.
 
-Most recently a **Backend Intern at Cestrum**, where I designed REST APIs and backend services in Node.js and Express for a community platform serving 5K+ users — securing endpoints with JWT auth, Google OAuth 2.0, and role-based access control, and replacing polling with WebSockets for real-time notifications and live feed updates. Before that, a **DevOps Intern at Comviva**, working on Terraform-managed AWS infrastructure and CI/CD automation with GitHub Actions and Docker.
+I spent about a year as a **backend intern at Cestrum**, where I worked on APIs for a community platform used by 5K+ people. I worked on posts, feeds, notifications, authentication, and role based access. Working with JWT and Google OAuth 2.0 taught me to be more careful about security. Replacing polling with WebSockets showed me how much of a difference real time features can make. I also worked quite a bit with MongoDB queries and indexes, which taught me that many performance problems are not as complicated as they first seem.
 
-Certified **AWS Solutions Architect – Associate** and **Oracle Certified Professional: Java SE 17 Developer**. Comfortable across the backend stack — from schema design and query optimization to containerized deploys — with a strong emphasis on correctness, observability, and developer ergonomics.
+Before that, I was a **DevOps intern at Comviva** in Gurugram. I worked with AWS, Terraform, GitHub Actions, Docker, and Linux, mainly around infrastructure and deployments. That experience helped me understand the other side of backend development and made me think more about how the code I write actually gets deployed and runs in production.
+
+More recently, I’ve been exploring **AI agents** and building projects around them. That’s where **IncidentOS** and **MergeMind** came from. Both started with me trying to improve workflows that felt repetitive and took more time than they should.
+
+I’m also an **AWS Solutions Architect** and an **Oracle Certified Professional**, but I see certifications as a starting point rather than the main goal. Most of what I learn still comes from building something, running into problems, and figuring out how to solve them.
+
 
 ---
 
 ## Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
 
 ### IncidentOS
 
@@ -37,12 +38,9 @@ An incident response platform that never acts without a human saying yes. Seven 
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-21262D?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-21262D?style=flat-square) ![AI Agents](https://img.shields.io/badge/AI_Agents-21262D?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-21262D?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-21262D?style=flat-square)
 
-🔵 TypeScript &nbsp; ![Stars](https://img.shields.io/github/stars/irohansh/IncidentOS?style=flat-square&label=%E2%98%86&color=0D1117&labelColor=0D1117)
-
 [![View Code](https://img.shields.io/badge/View_Code-0D1117?style=flat-square&logo=github&logoColor=white)](https://github.com/irohansh/IncidentOS)
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
 ### MergeMind
 
@@ -50,40 +48,7 @@ A pull-request reviewer that works the way a good team does. A planner agent rea
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-21262D?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-21262D?style=flat-square) ![AI Agents](https://img.shields.io/badge/AI_Agents-21262D?style=flat-square) ![GitHub API](https://img.shields.io/badge/GitHub_API-21262D?style=flat-square)
 
-🔵 TypeScript &nbsp; ![Stars](https://img.shields.io/github/stars/irohansh/MergeMind?style=flat-square&label=%E2%98%86&color=0D1117&labelColor=0D1117)
-
 [![View Code](https://img.shields.io/badge/View_Code-0D1117?style=flat-square&logo=github&logoColor=white)](https://github.com/irohansh/MergeMind)
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>Engineering detail — IncidentOS</b></summary>
-
-<br/>
-
-| | |
-|:--|:--|
-| **Cost** | Cost-aware model routing across Claude Sonnet and Haiku cut per-incident inference spend, with token usage and latency captured in PostgreSQL for SQL-driven cost analysis. |
-| **Integrations** | Incident state synchronized across Slack, GitHub, Prometheus and Grafana through a unified MCP-style client. |
-| **Security** | HMAC-SHA256 webhook verification, strict command denylists, and remediation of critical SSRF and URL-injection vulnerabilities. |
-| **Delivery** | Services containerized with Docker Compose behind an end-to-end CI/CD pipeline. |
-
-</details>
-
-<details>
-<summary><b>Engineering detail — MergeMind</b></summary>
-
-<br/>
-
-| | |
-|:--|:--|
-| **Cost** | Model routing and file batching cut inference cost by **25–30% per review**; every agent call logged to PostgreSQL with token, latency and cost metrics. |
-| **Pipeline** | Five specialised agents decompose PR diffs and review batches in parallel before a Synthesiser consolidates the output. |
-| **Tooling** | Three MCP servers — GitHub, PostgreSQL and filesystem — wired into a Claude Code workflow with custom slash commands to fetch and review pull requests. |
-
-</details>
 
 ---
 
@@ -132,9 +97,6 @@ A pull-request reviewer that works the way a good team does. A planner agent rea
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=irohansh&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&custom_title=GitHub+Stats" height="165" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irohansh&theme=github_dark&hide_border=true&layout=compact&langs_count=8" height="165" alt="Top Languages"/>
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=irohansh&theme=github-dark-blue&hide_border=true" alt="GitHub Streak"/>
 
 </div>
@@ -145,24 +107,11 @@ A pull-request reviewer that works the way a good team does. A planner agent rea
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="50%">
+<a href="https://www.credly.com/badges/391e1ab9-aee4-470d-84c0-7a483505280d" title="Verify: AWS Certified Solutions Architect — Associate"><img src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" height="140" alt="AWS Certified Solutions Architect – Associate"/></a>
+&emsp;&emsp;&nbsp;
+<a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=B3AD49F22B25A11FBC9E00237AA3F0778E7CCD95D0326FEB2BE130D602BCDD5D" title="Verify: Oracle Certified Professional: Java SE 17 Developer"><img src="https://brm-workforce.oracle.com/pdf/certview/images/OCPJSE17.png" height="140" alt="Oracle Certified Professional: Java SE 17 Developer"/></a>
 
-<img src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" height="150" alt="AWS Certified Solutions Architect – Associate"/>
-
-<a href="https://www.credly.com/badges/391e1ab9-aee4-470d-84c0-7a483505280d"><img src="https://img.shields.io/badge/%E2%9C%93_Click_to_verify-238636?style=flat-square&labelColor=0D1117" alt="Click to verify"/></a>
-
-</td>
-<td align="center" width="50%">
-
-<img src="https://brm-workforce.oracle.com/pdf/certview/images/OCPJSE17.png" height="150" alt="Oracle Certified Professional: Java SE 17 Developer"/>
-
-<a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=B3AD49F22B25A11FBC9E00237AA3F0778E7CCD95D0326FEB2BE130D602BCDD5D"><img src="https://img.shields.io/badge/%E2%9C%93_Click_to_verify-238636?style=flat-square&labelColor=0D1117" alt="Click to verify"/></a>
-
-</td>
-</tr>
-</table>
+<a href="https://www.credly.com/badges/391e1ab9-aee4-470d-84c0-7a483505280d" title="Verify: AWS Certified Solutions Architect — Associate"><img src="https://img.shields.io/badge/%E2%9C%93_Click_to_verify-238636?style=flat-square&labelColor=0D1117" alt="Click to verify"/></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=B3AD49F22B25A11FBC9E00237AA3F0778E7CCD95D0326FEB2BE130D602BCDD5D" title="Verify: Oracle Certified Professional: Java SE 17 Developer"><img src="https://img.shields.io/badge/%E2%9C%93_Click_to_verify-238636?style=flat-square&labelColor=0D1117" alt="Click to verify"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </div>
 
