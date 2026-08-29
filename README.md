@@ -27,24 +27,60 @@ Certified **AWS Solutions Architect – Associate** and **Oracle Certified Profe
 
 ## Projects
 
-### IncidentOS
+<table>
+<tr><td width="50%" valign="top">
 
-**TypeScript · Node.js · PostgreSQL · Docker · Anthropic SDK · Next.js · MCP**
+### [IncidentOS](https://github.com/irohansh/IncidentOS)
 
-An incident response platform built on a **seven-agent pipeline** with a mandatory human-in-the-loop approval gate, so every remediation action is reviewed before it executes.
+[![Repo](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/irohansh/IncidentOS)
+![Stars](https://img.shields.io/github/stars/irohansh/IncidentOS?style=flat-square&color=FFA116&labelColor=1a1a1a)
+![Last commit](https://img.shields.io/github/last-commit/irohansh/IncidentOS?style=flat-square&color=58A6FF&labelColor=1a1a1a)
 
-- Reduced per-incident inference cost through cost-aware model routing across Claude Sonnet and Claude Haiku, capturing token usage and latency metrics in PostgreSQL for SQL-driven cost analysis.
-- Synchronized incident state across Slack, GitHub, Prometheus, and Grafana through a unified MCP-style client, secured with HMAC-SHA256 webhook verification and strict command denylists.
-- Containerized with Docker Compose behind a CI/CD pipeline, closing critical security vulnerabilities including SSRF and URL injection.
+An incident response platform built on a **seven-agent pipeline** with a mandatory human-in-the-loop approval gate — so every remediation action is reviewed before it executes.
 
-### MergeMind
+`TypeScript` `Node.js` `PostgreSQL` `Docker` `Next.js` `Anthropic SDK` `MCP`
 
-**TypeScript · Node.js · PostgreSQL · Anthropic SDK · MCP**
+</td><td width="50%" valign="top">
 
-An automated PR review system running a **5-agent orchestration pipeline** — Planner, Security, Logic, Style, and Synthesiser — that decomposes PR diffs, reviews batches in parallel, and produces consolidated Markdown review comments.
+### [MergeMind](https://github.com/irohansh/MergeMind)
 
-- Cut inference cost by **25–30% per review** through model routing and file batching, logging every agent call to PostgreSQL with token, latency, and cost metrics.
-- Wired 3 Model Context Protocol servers — GitHub, PostgreSQL, and filesystem — into a Claude Code workflow with custom slash commands to fetch and review pull requests.
+[![Repo](https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/irohansh/MergeMind)
+![Stars](https://img.shields.io/github/stars/irohansh/MergeMind?style=flat-square&color=FFA116&labelColor=1a1a1a)
+![Last commit](https://img.shields.io/github/last-commit/irohansh/MergeMind?style=flat-square&color=58A6FF&labelColor=1a1a1a)
+
+An automated PR reviewer running a **5-agent orchestration pipeline** — Planner, Security, Logic, Style, Synthesiser — that decomposes diffs, reviews batches in parallel, and ships one consolidated Markdown review.
+
+`TypeScript` `Node.js` `PostgreSQL` `Anthropic SDK` `MCP`
+
+</td></tr>
+</table>
+
+<details>
+<summary><b>IncidentOS — engineering detail</b></summary>
+
+<br/>
+
+| | |
+|---|---|
+| **Cost** | Cost-aware model routing across Claude Sonnet and Haiku cut per-incident inference spend, with token usage and latency captured in PostgreSQL for SQL-driven cost analysis. |
+| **Integrations** | Incident state synchronized across Slack, GitHub, Prometheus, and Grafana through a unified MCP-style client. |
+| **Security** | HMAC-SHA256 webhook verification, strict command denylists, and remediation of critical SSRF and URL-injection vulnerabilities. |
+| **Delivery** | Services containerized with Docker Compose behind an end-to-end CI/CD pipeline. |
+
+</details>
+
+<details>
+<summary><b>MergeMind — engineering detail</b></summary>
+
+<br/>
+
+| | |
+|---|---|
+| **Cost** | Model routing and file batching cut inference cost by **25–30% per review**; every agent call logged to PostgreSQL with token, latency, and cost metrics. |
+| **Pipeline** | Five specialised agents decompose PR diffs and review batches in parallel before a Synthesiser consolidates the output. |
+| **Tooling** | Three MCP servers — GitHub, PostgreSQL, and filesystem — wired into a Claude Code workflow with custom slash commands to fetch and review pull requests. |
+
+</details>
 
 ---
 
